@@ -166,9 +166,9 @@ export function drawFilm(c, w, h, t, variant = 0) {
   ][variant];
   c.fillText(words[phase], w * 0.065, h * 0.18);
   const scale =
-    Math.min(w / 400, h / 215) *
-    (1 + Math.sin((Math.min(1, t % 2.65) * Math.PI) / 2) * 0.06);
-  printer(c, w * 0.52, h * 0.68, scale, t, 0.2 + (t % 2.65) / 3.2);
+    Math.min(w / 500, h / 310) *
+    (1 + Math.sin((Math.min(1, t % 2.65) * Math.PI) / 2) * 0.04);
+  printer(c, w * 0.52, h * 0.65, scale, t, 0.2 + (t % 2.65) / 3.2);
   c.textAlign = "right";
   c.fillStyle = dark ? "#c9cbd0" : "#5e626c";
   c.font = `${w * 0.014}px "IBM Plex Mono", monospace`;
