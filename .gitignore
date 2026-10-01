@@ -1,0 +1,9 @@
+node_modules
+dist
+.vercel
+.local
+.env*
+!.env.example
+artifacts
+operator-access.txt
+deployment.json

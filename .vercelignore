@@ -1,0 +1,12 @@
+node_modules
+.git
+.local
+.env*
+artifacts
+tests
+scripts
+marketing
+operator-access.txt
+deployment.json
+README.md
+DESIGN.md
